@@ -2390,13 +2390,14 @@ int processCommand(client *c) {
         return C_OK;
     }
 
+    //wangjunling hacked: no force authenticated
     /* Check if the user is authenticated */
-    if (server.requirepass && !c->authenticated && c->cmd->proc != authCommand)
-    {
-        flagTransaction(c);
-        addReply(c,shared.noautherr);
-        return C_OK;
-    }
+    //if (server.requirepass && !c->authenticated && c->cmd->proc != authCommand)
+    //{
+        //flagTransaction(c);
+        //addReply(c,shared.noautherr);
+        //return C_OK;
+    //}
 
     /* If cluster is enabled perform the cluster redirection here.
      * However we don't perform the redirection if:
