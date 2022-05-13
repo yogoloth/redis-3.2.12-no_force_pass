@@ -431,7 +431,14 @@ void loadServerConfigFromString(char *config) {
             if ((server.aof_load_truncated = yesnotoi(argv[1])) == -1) {
                 err = "argument must be 'yes' or 'no'"; goto loaderr;
             }
-        } else if (!strcasecmp(argv[0],"requirepass") && argc == 2) {
+        } 
+        //wangjunling: force auth 
+        else if (!strcasecmp(argv[0],"force-auth") && argc == 2) {
+            if ((server.force_auth = yesnotoi(argv[1])) == -1) {
+                err = "argument must be 'yes' or 'no'"; goto loaderr;
+            }
+        } 
+        else if (!strcasecmp(argv[0],"requirepass") && argc == 2) {
             if (strlen(argv[1]) > CONFIG_AUTHPASS_MAX_LEN) {
                 err = "Password is longer than CONFIG_AUTHPASS_MAX_LEN";
                 goto loaderr;

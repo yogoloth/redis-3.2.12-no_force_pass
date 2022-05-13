@@ -98,11 +98,11 @@ A0	src/rand.c	57;"	d	file:
 A1	src/rand.c	58;"	d	file:
 A2	src/rand.c	59;"	d	file:
 ABI	deps/jemalloc/Makefile	/^ABI := elf$/;"	m
-ACTIVE_EXPIRE_CYCLE_FAST	src/server.h	147;"	d
-ACTIVE_EXPIRE_CYCLE_FAST_DURATION	src/server.h	144;"	d
-ACTIVE_EXPIRE_CYCLE_LOOKUPS_PER_LOOP	src/server.h	143;"	d
-ACTIVE_EXPIRE_CYCLE_SLOW	src/server.h	146;"	d
-ACTIVE_EXPIRE_CYCLE_SLOW_TIME_PERC	src/server.h	145;"	d
+ACTIVE_EXPIRE_CYCLE_FAST	src/server.h	148;"	d
+ACTIVE_EXPIRE_CYCLE_FAST_DURATION	src/server.h	145;"	d
+ACTIVE_EXPIRE_CYCLE_LOOKUPS_PER_LOOP	src/server.h	144;"	d
+ACTIVE_EXPIRE_CYCLE_SLOW	src/server.h	147;"	d
+ACTIVE_EXPIRE_CYCLE_SLOW_TIME_PERC	src/server.h	146;"	d
 ADDEQU	src/rand.c	53;"	d	file:
 AE_ALL_EVENTS	src/ae.h	52;"	d
 AE_BARRIER	src/ae.h	44;"	d
@@ -301,17 +301,17 @@ ANET_H	src/anet.h	32;"	d
 ANET_IP_ONLY	src/anet.h	42;"	d
 ANET_NONE	src/anet.h	41;"	d
 ANET_OK	src/anet.h	36;"	d
-AOF_AUTOSYNC_BYTES	src/server.h	163;"	d
-AOF_FSYNC_ALWAYS	src/server.h	362;"	d
-AOF_FSYNC_EVERYSEC	src/server.h	363;"	d
-AOF_FSYNC_NO	src/server.h	361;"	d
-AOF_OFF	src/server.h	240;"	d
-AOF_ON	src/server.h	241;"	d
+AOF_AUTOSYNC_BYTES	src/server.h	164;"	d
+AOF_FSYNC_ALWAYS	src/server.h	363;"	d
+AOF_FSYNC_EVERYSEC	src/server.h	364;"	d
+AOF_FSYNC_NO	src/server.h	362;"	d
+AOF_OFF	src/server.h	241;"	d
+AOF_ON	src/server.h	242;"	d
 AOF_REWRITE_ITEMS_PER_CMD	src/server.h	94;"	d
 AOF_REWRITE_MIN_SIZE	src/server.h	93;"	d
 AOF_REWRITE_PERC	src/server.h	92;"	d
 AOF_RW_BUF_BLOCK_SIZE	src/aof.c	60;"	d	file:
-AOF_WAIT_REWRITE	src/server.h	242;"	d
+AOF_WAIT_REWRITE	src/server.h	243;"	d
 AOF_WRITE_LOG_ERROR_RATE	src/aof.c	287;"	d	file:
 APPEND_C	deps/jemalloc/src/util.c	316;"	d	file:
 APPEND_C	deps/jemalloc/src/util.c	582;"	d	file:
@@ -389,9 +389,9 @@ BITS_32	deps/lua/src/lua_cmsgpack.c	31;"	d	file:
 BIT_OP	deps/lua/src/lua_bit.c	99;"	d	file:
 BIT_SH	deps/lua/src/lua_bit.c	111;"	d	file:
 BLACKBIT	deps/lua/src/lgc.h	56;"	d
-BLOCKED_LIST	src/server.h	279;"	d
-BLOCKED_NONE	src/server.h	278;"	d
-BLOCKED_WAIT	src/server.h	280;"	d
+BLOCKED_LIST	src/server.h	280;"	d
+BLOCKED_NONE	src/server.h	279;"	d
+BLOCKED_WAIT	src/server.h	281;"	d
 BLOCK_SIZE	deps/jemalloc/test/unit/SFMT.c	38;"	d	file:
 BLOCK_SIZE64	deps/jemalloc/test/unit/SFMT.c	39;"	d	file:
 BRET	deps/lua/src/lua_bit.c	94;"	d	file:
@@ -464,39 +464,39 @@ CJSON_VERSION	deps/lua/src/lua_cjson.c	56;"	d	file:
 CKH_A	deps/jemalloc/include/jemalloc/internal/ckh.h	43;"	d
 CKH_C	deps/jemalloc/include/jemalloc/internal/ckh.h	44;"	d
 CLIENTS_CRON_MIN_ITERATIONS	src/server.c	991;"	d	file:
-CLIENT_ASKING	src/server.h	255;"	d
-CLIENT_BLOCKED	src/server.h	249;"	d
-CLIENT_CLOSE_AFTER_REPLY	src/server.h	251;"	d
-CLIENT_CLOSE_ASAP	src/server.h	256;"	d
-CLIENT_DIRTY_CAS	src/server.h	250;"	d
-CLIENT_DIRTY_EXEC	src/server.h	258;"	d
-CLIENT_FORCE_AOF	src/server.h	260;"	d
-CLIENT_FORCE_REPL	src/server.h	261;"	d
-CLIENT_LUA	src/server.h	254;"	d
-CLIENT_LUA_DEBUG	src/server.h	273;"	d
-CLIENT_LUA_DEBUG_SYNC	src/server.h	274;"	d
-CLIENT_MASTER	src/server.h	246;"	d
-CLIENT_MASTER_FORCE_REPLY	src/server.h	259;"	d
-CLIENT_MONITOR	src/server.h	247;"	d
-CLIENT_MULTI	src/server.h	248;"	d
-CLIENT_PENDING_WRITE	src/server.h	268;"	d
-CLIENT_PREVENT_AOF_PROP	src/server.h	265;"	d
-CLIENT_PREVENT_PROP	src/server.h	267;"	d
-CLIENT_PREVENT_REPL_PROP	src/server.h	266;"	d
-CLIENT_PRE_PSYNC	src/server.h	262;"	d
-CLIENT_PUBSUB	src/server.h	264;"	d
-CLIENT_READONLY	src/server.h	263;"	d
-CLIENT_REPLY_OFF	src/server.h	270;"	d
-CLIENT_REPLY_SKIP	src/server.h	272;"	d
-CLIENT_REPLY_SKIP_NEXT	src/server.h	271;"	d
-CLIENT_SLAVE	src/server.h	245;"	d
-CLIENT_TYPE_MASTER	src/server.h	291;"	d
-CLIENT_TYPE_NORMAL	src/server.h	288;"	d
-CLIENT_TYPE_OBUF_COUNT	src/server.h	292;"	d
-CLIENT_TYPE_PUBSUB	src/server.h	290;"	d
-CLIENT_TYPE_SLAVE	src/server.h	289;"	d
-CLIENT_UNBLOCKED	src/server.h	252;"	d
-CLIENT_UNIX_SOCKET	src/server.h	257;"	d
+CLIENT_ASKING	src/server.h	256;"	d
+CLIENT_BLOCKED	src/server.h	250;"	d
+CLIENT_CLOSE_AFTER_REPLY	src/server.h	252;"	d
+CLIENT_CLOSE_ASAP	src/server.h	257;"	d
+CLIENT_DIRTY_CAS	src/server.h	251;"	d
+CLIENT_DIRTY_EXEC	src/server.h	259;"	d
+CLIENT_FORCE_AOF	src/server.h	261;"	d
+CLIENT_FORCE_REPL	src/server.h	262;"	d
+CLIENT_LUA	src/server.h	255;"	d
+CLIENT_LUA_DEBUG	src/server.h	274;"	d
+CLIENT_LUA_DEBUG_SYNC	src/server.h	275;"	d
+CLIENT_MASTER	src/server.h	247;"	d
+CLIENT_MASTER_FORCE_REPLY	src/server.h	260;"	d
+CLIENT_MONITOR	src/server.h	248;"	d
+CLIENT_MULTI	src/server.h	249;"	d
+CLIENT_PENDING_WRITE	src/server.h	269;"	d
+CLIENT_PREVENT_AOF_PROP	src/server.h	266;"	d
+CLIENT_PREVENT_PROP	src/server.h	268;"	d
+CLIENT_PREVENT_REPL_PROP	src/server.h	267;"	d
+CLIENT_PRE_PSYNC	src/server.h	263;"	d
+CLIENT_PUBSUB	src/server.h	265;"	d
+CLIENT_READONLY	src/server.h	264;"	d
+CLIENT_REPLY_OFF	src/server.h	271;"	d
+CLIENT_REPLY_SKIP	src/server.h	273;"	d
+CLIENT_REPLY_SKIP_NEXT	src/server.h	272;"	d
+CLIENT_SLAVE	src/server.h	246;"	d
+CLIENT_TYPE_MASTER	src/server.h	292;"	d
+CLIENT_TYPE_NORMAL	src/server.h	289;"	d
+CLIENT_TYPE_OBUF_COUNT	src/server.h	293;"	d
+CLIENT_TYPE_PUBSUB	src/server.h	291;"	d
+CLIENT_TYPE_SLAVE	src/server.h	290;"	d
+CLIENT_UNBLOCKED	src/server.h	253;"	d
+CLIENT_UNIX_SOCKET	src/server.h	258;"	d
 CLI_HELP_COMMAND	src/redis-cli.c	210;"	d	file:
 CLI_HELP_GROUP	src/redis-cli.c	211;"	d	file:
 CLUSTERMSG_FLAG0_FORCEACK	src/cluster.h	253;"	d
@@ -561,27 +561,27 @@ CLUSTER_TODO_HANDLE_FAILOVER	src/cluster.h	145;"	d
 CLUSTER_TODO_SAVE_CONFIG	src/cluster.h	147;"	d
 CLUSTER_TODO_UPDATE_STATE	src/cluster.h	146;"	d
 CLUSTER_WRITABLE_DELAY	src/cluster.c	3475;"	d	file:
-CMD_ADMIN	src/server.h	180;"	d
-CMD_ASKING	src/server.h	188;"	d
-CMD_CALL_FULL	src/server.h	414;"	d
-CMD_CALL_NONE	src/server.h	408;"	d
-CMD_CALL_PROPAGATE	src/server.h	413;"	d
-CMD_CALL_PROPAGATE_AOF	src/server.h	411;"	d
-CMD_CALL_PROPAGATE_REPL	src/server.h	412;"	d
-CMD_CALL_SLOWLOG	src/server.h	409;"	d
-CMD_CALL_STATS	src/server.h	410;"	d
-CMD_DENYOOM	src/server.h	178;"	d
-CMD_FAST	src/server.h	189;"	d
-CMD_LOADING	src/server.h	185;"	d
-CMD_NOSCRIPT	src/server.h	182;"	d
-CMD_NOT_USED_1	src/server.h	179;"	d
-CMD_PUBSUB	src/server.h	181;"	d
-CMD_RANDOM	src/server.h	183;"	d
-CMD_READONLY	src/server.h	177;"	d
-CMD_SKIP_MONITOR	src/server.h	187;"	d
-CMD_SORT_FOR_SCRIPT	src/server.h	184;"	d
-CMD_STALE	src/server.h	186;"	d
-CMD_WRITE	src/server.h	176;"	d
+CMD_ADMIN	src/server.h	181;"	d
+CMD_ASKING	src/server.h	189;"	d
+CMD_CALL_FULL	src/server.h	415;"	d
+CMD_CALL_NONE	src/server.h	409;"	d
+CMD_CALL_PROPAGATE	src/server.h	414;"	d
+CMD_CALL_PROPAGATE_AOF	src/server.h	412;"	d
+CMD_CALL_PROPAGATE_REPL	src/server.h	413;"	d
+CMD_CALL_SLOWLOG	src/server.h	410;"	d
+CMD_CALL_STATS	src/server.h	411;"	d
+CMD_DENYOOM	src/server.h	179;"	d
+CMD_FAST	src/server.h	190;"	d
+CMD_LOADING	src/server.h	186;"	d
+CMD_NOSCRIPT	src/server.h	183;"	d
+CMD_NOT_USED_1	src/server.h	180;"	d
+CMD_PUBSUB	src/server.h	182;"	d
+CMD_RANDOM	src/server.h	184;"	d
+CMD_READONLY	src/server.h	178;"	d
+CMD_SKIP_MONITOR	src/server.h	188;"	d
+CMD_SORT_FOR_SCRIPT	src/server.h	185;"	d
+CMD_STALE	src/server.h	187;"	d
+CMD_WRITE	src/server.h	177;"	d
 COM	deps/geohash-int/geohash_helper.c	45;"	d	file:
 COMPRESS_MAX	src/quicklist.c	106;"	d	file:
 CONFIG_AUTHPASS_MAX_LEN	src/server.h	98;"	d
@@ -589,7 +589,7 @@ CONFIG_BGSAVE_RETRY_DELAY	src/server.h	107;"	d
 CONFIG_BINDADDR_MAX	src/server.h	139;"	d
 CONFIG_DEFAULT_ACTIVE_REHASHING	src/server.h	133;"	d
 CONFIG_DEFAULT_AOF_FILENAME	src/server.h	130;"	d
-CONFIG_DEFAULT_AOF_FSYNC	src/server.h	364;"	d
+CONFIG_DEFAULT_AOF_FSYNC	src/server.h	365;"	d
 CONFIG_DEFAULT_AOF_LOAD_TRUNCATED	src/server.h	132;"	d
 CONFIG_DEFAULT_AOF_NO_FSYNC_ON_REWRITE	src/server.h	131;"	d
 CONFIG_DEFAULT_AOF_REWRITE_INCREMENTAL_FSYNC	src/server.h	134;"	d
@@ -597,12 +597,13 @@ CONFIG_DEFAULT_CLIENT_TIMEOUT	src/server.h	83;"	d
 CONFIG_DEFAULT_CLUSTER_CONFIG_FILE	src/server.h	110;"	d
 CONFIG_DEFAULT_DAEMONIZE	src/server.h	111;"	d
 CONFIG_DEFAULT_DBNUM	src/server.h	84;"	d
-CONFIG_DEFAULT_HLL_SPARSE_MAX_BYTES	src/server.h	378;"	d
+CONFIG_DEFAULT_FORCE_AUTH	src/server.h	142;"	d
+CONFIG_DEFAULT_HLL_SPARSE_MAX_BYTES	src/server.h	379;"	d
 CONFIG_DEFAULT_HZ	src/server.h	78;"	d
 CONFIG_DEFAULT_LATENCY_MONITOR_THRESHOLD	src/server.h	141;"	d
 CONFIG_DEFAULT_LOGFILE	src/server.h	115;"	d
 CONFIG_DEFAULT_MAXMEMORY	src/server.h	128;"	d
-CONFIG_DEFAULT_MAXMEMORY_POLICY	src/server.h	392;"	d
+CONFIG_DEFAULT_MAXMEMORY_POLICY	src/server.h	393;"	d
 CONFIG_DEFAULT_MAXMEMORY_SAMPLES	src/server.h	129;"	d
 CONFIG_DEFAULT_MAX_CLIENTS	src/server.h	97;"	d
 CONFIG_DEFAULT_MIN_SLAVES_MAX_LAG	src/server.h	136;"	d
@@ -633,14 +634,14 @@ CONFIG_DEFAULT_SYSLOG_IDENT	src/server.h	109;"	d
 CONFIG_DEFAULT_TCP_BACKLOG	src/server.h	82;"	d
 CONFIG_DEFAULT_TCP_KEEPALIVE	src/server.h	113;"	d
 CONFIG_DEFAULT_UNIX_SOCKET_PERM	src/server.h	112;"	d
-CONFIG_DEFAULT_VERBOSITY	src/server.h	346;"	d
-CONFIG_FDSET_INCR	src/server.h	169;"	d
+CONFIG_DEFAULT_VERBOSITY	src/server.h	347;"	d
+CONFIG_FDSET_INCR	src/server.h	170;"	d
 CONFIG_MAX_HZ	src/server.h	80;"	d
 CONFIG_MAX_LINE	src/server.h	85;"	d
 CONFIG_MIN_HZ	src/server.h	79;"	d
 CONFIG_MIN_RESERVED_FDS	src/server.h	140;"	d
 CONFIG_REPL_BACKLOG_MIN_SIZE	src/server.h	106;"	d
-CONFIG_REPL_SYNCIO_TIMEOUT	src/server.h	331;"	d
+CONFIG_REPL_SYNCIO_TIMEOUT	src/server.h	332;"	d
 CONFIG_RUN_ID_SIZE	src/server.h	102;"	d
 CONF_HANDLE_BOOL	deps/jemalloc/src/jemalloc.c	1140;"	d	file:
 CONF_HANDLE_BOOL	deps/jemalloc/src/jemalloc.c	943;"	d	file:
@@ -825,7 +826,7 @@ ERRLIB	deps/lua/src/loadlib.c	39;"	d	file:
 ERROR	src/quicklist.c	1431;"	d	file:
 ERROR	src/redis-check-aof.c	39;"	d	file:
 ESC	deps/linenoise/linenoise.c	/^	ESC = 27,           \/* Escape *\/$/;"	e	enum:KEY_ACTION	file:
-EVICTION_SAMPLES_ARRAY_SIZE	src/server.c	3407;"	d	file:
+EVICTION_SAMPLES_ARRAY_SIZE	src/server.c	3409;"	d	file:
 EXAMPLES	deps/hiredis/Makefile	/^EXAMPLES=hiredis-example hiredis-example-libevent hiredis-example-libev$/;"	m
 EXE	deps/jemalloc/Makefile	/^EXE := $/;"	m
 EXTRA_LDFLAGS	deps/jemalloc/Makefile	/^EXTRA_LDFLAGS := $/;"	m
@@ -923,7 +924,7 @@ GeoHashRadius	deps/geohash-int/geohash_helper.h	/^} GeoHashRadius;$/;"	t	typeref
 GeoHashRange	deps/geohash-int/geohash.h	/^} GeoHashRange;$/;"	t	typeref:struct:__anon3
 GeoHashVarBits	deps/geohash-int/geohash_helper.h	/^typedef uint64_t GeoHashVarBits;$/;"	t
 HASHISZERO	deps/geohash-int/geohash.h	43;"	d
-HASHTABLE_MIN_FILL	src/server.h	172;"	d
+HASHTABLE_MIN_FILL	src/server.h	173;"	d
 HAVE_ATOMIC	src/config.h	200;"	d
 HAVE_ATOMIC	src/config.h	204;"	d
 HAVE_BACKTRACE	src/config.h	66;"	d
@@ -1431,32 +1432,32 @@ LINENOISE_HISTORY_PREV	deps/linenoise/linenoise.c	699;"	d	file:
 LINENOISE_MAX_LINE	deps/linenoise/linenoise.c	121;"	d	file:
 LINKCOLOR	deps/Makefile	/^LINKCOLOR="\\033[34;1m"$/;"	m
 LINKCOLOR	src/Makefile	/^LINKCOLOR="\\033[34;1m"$/;"	m
-LIST_HEAD	src/server.h	334;"	d
-LIST_TAIL	src/server.h	335;"	d
+LIST_HEAD	src/server.h	335;"	d
+LIST_TAIL	src/server.h	336;"	d
 LITTLE	deps/lua/src/lua_struct.c	77;"	d	file:
 LITTLE_ENDIAN	src/config.h	141;"	d
 LITTLE_ENDIAN	src/config.h	173;"	d
-LL_DEBUG	src/server.h	341;"	d
-LL_NOTICE	src/server.h	343;"	d
-LL_RAW	src/server.h	345;"	d
-LL_VERBOSE	src/server.h	342;"	d
-LL_WARNING	src/server.h	344;"	d
+LL_DEBUG	src/server.h	342;"	d
+LL_NOTICE	src/server.h	344;"	d
+LL_RAW	src/server.h	346;"	d
+LL_VERBOSE	src/server.h	343;"	d
+LL_WARNING	src/server.h	345;"	d
 LOG_MAX_LEN	src/server.h	91;"	d
 LONG	deps/jemalloc/include/jemalloc/internal/jemalloc_internal.h	284;"	d
 LONG_CEILING	deps/jemalloc/include/jemalloc/internal/jemalloc_internal.h	288;"	d
 LONG_MASK	deps/jemalloc/include/jemalloc/internal/jemalloc_internal.h	285;"	d
-LONG_STR_SIZE	src/server.h	162;"	d
+LONG_STR_SIZE	src/server.h	163;"	d
 LOOKUP_MAXCLASS	deps/jemalloc/include/jemalloc/internal/size_classes.h	181;"	d
 LOOKUP_MAXCLASS	deps/jemalloc/include/jemalloc/internal/size_classes.h	495;"	d
-LOOKUP_NONE	src/server.h	1412;"	d
-LOOKUP_NOTOUCH	src/server.h	1413;"	d
+LOOKUP_NONE	src/server.h	1414;"	d
+LOOKUP_NOTOUCH	src/server.h	1415;"	d
 LOW	src/rand.c	48;"	d	file:
 LRUTestGenKey	src/redis-cli.c	/^void LRUTestGenKey(char *buf, size_t buflen) {$/;"	f
 LRUTestMode	src/redis-cli.c	/^static void LRUTestMode(void) {$/;"	f	file:
-LRU_BITS	src/server.h	460;"	d
-LRU_CLOCK	src/server.h	475;"	d
-LRU_CLOCK_MAX	src/server.h	461;"	d
-LRU_CLOCK_RESOLUTION	src/server.h	462;"	d
+LRU_BITS	src/server.h	461;"	d
+LRU_CLOCK	src/server.h	476;"	d
+LRU_CLOCK_MAX	src/server.h	462;"	d
+LRU_CLOCK_RESOLUTION	src/server.h	463;"	d
 LRU_CYCLE_PERIOD	src/redis-cli.c	2432;"	d	file:
 LRU_CYCLE_PIPELINE_SIZE	src/redis-cli.c	2433;"	d	file:
 LUACMSGPACK_COPYRIGHT	deps/lua/src/lua_cmsgpack.c	13;"	d	file:
@@ -1638,7 +1639,7 @@ LUA_REFNIL	deps/lua/src/lauxlib.h	160;"	d
 LUA_REGISTRYINDEX	deps/lua/src/lua.h	36;"	d
 LUA_RELEASE	deps/lua/src/lua.h	20;"	d
 LUA_ROOT	deps/lua/src/luaconf.h	97;"	d
-LUA_SCRIPT_TIME_LIMIT	src/server.h	395;"	d
+LUA_SCRIPT_TIME_LIMIT	src/server.h	396;"	d
 LUA_SIGNATURE	deps/lua/src/lua.h	27;"	d
 LUA_STRLIBNAME	deps/lua/src/lualib.h	30;"	d
 LUA_T	deps/lua/src/Makefile	/^LUA_T=	lua$/;"	m
@@ -1778,13 +1779,13 @@ MAXBITS	deps/lua/src/ltable.c	42;"	d	file:
 MAXBITS	deps/lua/src/ltable.c	44;"	d	file:
 MAXINDEXRK	deps/lua/src/lopcodes.h	127;"	d
 MAXINTSIZE	deps/lua/src/lua_struct.c	59;"	d	file:
-MAXMEMORY_ALLKEYS_LRU	src/server.h	389;"	d
-MAXMEMORY_ALLKEYS_RANDOM	src/server.h	390;"	d
-MAXMEMORY_EVICTION_POOL_SIZE	src/server.h	495;"	d
-MAXMEMORY_NO_EVICTION	src/server.h	391;"	d
-MAXMEMORY_VOLATILE_LRU	src/server.h	386;"	d
-MAXMEMORY_VOLATILE_RANDOM	src/server.h	388;"	d
-MAXMEMORY_VOLATILE_TTL	src/server.h	387;"	d
+MAXMEMORY_ALLKEYS_LRU	src/server.h	390;"	d
+MAXMEMORY_ALLKEYS_RANDOM	src/server.h	391;"	d
+MAXMEMORY_EVICTION_POOL_SIZE	src/server.h	496;"	d
+MAXMEMORY_NO_EVICTION	src/server.h	392;"	d
+MAXMEMORY_VOLATILE_LRU	src/server.h	387;"	d
+MAXMEMORY_VOLATILE_RANDOM	src/server.h	389;"	d
+MAXMEMORY_VOLATILE_TTL	src/server.h	388;"	d
 MAXSRC	deps/lua/src/llex.c	75;"	d	file:
 MAXSTACK	deps/lua/src/llimits.h	93;"	d
 MAXSZ	deps/jemalloc/test/integration/mallocx.c	112;"	d	file:
@@ -1907,7 +1908,7 @@ NCYCLES	deps/jemalloc/test/integration/rallocx.c	44;"	d	file:
 NCYCLES	deps/jemalloc/test/integration/rallocx.c	7;"	d	file:
 NENTRIES	deps/jemalloc/test/unit/ql.c	4;"	d	file:
 NENTRIES	deps/jemalloc/test/unit/qr.c	4;"	d	file:
-NET_FIRST_BIND_ADDR	src/server.h	441;"	d
+NET_FIRST_BIND_ADDR	src/server.h	442;"	d
 NET_IP_STR_LEN	src/server.h	137;"	d
 NET_MAX_WRITES_PER_EVENT	src/server.h	87;"	d
 NET_PEER_ID_LEN	src/server.h	138;"	d
@@ -1928,17 +1929,17 @@ NMSGS	deps/jemalloc/test/unit/mq.c	4;"	d	file:
 NNODES	deps/jemalloc/test/unit/rb.c	217;"	d	file:
 NNODES	deps/jemalloc/test/unit/rb.c	323;"	d	file:
 NODE_MAGIC	deps/jemalloc/test/unit/rb.c	17;"	d	file:
-NOTIFY_ALL	src/server.h	438;"	d
-NOTIFY_EVICTED	src/server.h	437;"	d
-NOTIFY_EXPIRED	src/server.h	436;"	d
-NOTIFY_GENERIC	src/server.h	430;"	d
-NOTIFY_HASH	src/server.h	434;"	d
-NOTIFY_KEYEVENT	src/server.h	429;"	d
-NOTIFY_KEYSPACE	src/server.h	428;"	d
-NOTIFY_LIST	src/server.h	432;"	d
-NOTIFY_SET	src/server.h	433;"	d
-NOTIFY_STRING	src/server.h	431;"	d
-NOTIFY_ZSET	src/server.h	435;"	d
+NOTIFY_ALL	src/server.h	439;"	d
+NOTIFY_EVICTED	src/server.h	438;"	d
+NOTIFY_EXPIRED	src/server.h	437;"	d
+NOTIFY_GENERIC	src/server.h	431;"	d
+NOTIFY_HASH	src/server.h	435;"	d
+NOTIFY_KEYEVENT	src/server.h	430;"	d
+NOTIFY_KEYSPACE	src/server.h	429;"	d
+NOTIFY_LIST	src/server.h	433;"	d
+NOTIFY_SET	src/server.h	434;"	d
+NOTIFY_STRING	src/server.h	432;"	d
+NOTIFY_ZSET	src/server.h	436;"	d
 NO_INITIALIZER	deps/jemalloc/src/jemalloc.c	165;"	d	file:
 NO_INITIALIZER	deps/jemalloc/src/jemalloc.c	170;"	d	file:
 NO_JUMP	deps/lua/src/lcode.h	20;"	d
@@ -1981,40 +1982,40 @@ O	deps/jemalloc/src/tsd.c	80;"	d	file:
 O	deps/jemalloc/src/tsd.c	83;"	d	file:
 O2S_BUFSIZE	deps/jemalloc/src/util.c	34;"	d	file:
 OBJ	deps/hiredis/Makefile	/^OBJ=net.o hiredis.o sds.o async.o$/;"	m
-OBJ_ENCODING_EMBSTR	src/server.h	209;"	d
+OBJ_ENCODING_EMBSTR	src/server.h	210;"	d
 OBJ_ENCODING_EMBSTR_SIZE_LIMIT	src/object.c	88;"	d	file:
-OBJ_ENCODING_HT	src/server.h	203;"	d
-OBJ_ENCODING_INT	src/server.h	202;"	d
-OBJ_ENCODING_INTSET	src/server.h	207;"	d
-OBJ_ENCODING_LINKEDLIST	src/server.h	205;"	d
-OBJ_ENCODING_QUICKLIST	src/server.h	210;"	d
-OBJ_ENCODING_RAW	src/server.h	201;"	d
-OBJ_ENCODING_SKIPLIST	src/server.h	208;"	d
-OBJ_ENCODING_ZIPLIST	src/server.h	206;"	d
-OBJ_ENCODING_ZIPMAP	src/server.h	204;"	d
-OBJ_HASH	src/server.h	196;"	d
-OBJ_HASH_KEY	src/server.h	1060;"	d
-OBJ_HASH_MAX_ZIPLIST_ENTRIES	src/server.h	367;"	d
-OBJ_HASH_MAX_ZIPLIST_VALUE	src/server.h	368;"	d
-OBJ_HASH_VALUE	src/server.h	1061;"	d
-OBJ_LIST	src/server.h	193;"	d
-OBJ_LIST_COMPRESS_DEPTH	src/server.h	375;"	d
-OBJ_LIST_MAX_ZIPLIST_SIZE	src/server.h	374;"	d
+OBJ_ENCODING_HT	src/server.h	204;"	d
+OBJ_ENCODING_INT	src/server.h	203;"	d
+OBJ_ENCODING_INTSET	src/server.h	208;"	d
+OBJ_ENCODING_LINKEDLIST	src/server.h	206;"	d
+OBJ_ENCODING_QUICKLIST	src/server.h	211;"	d
+OBJ_ENCODING_RAW	src/server.h	202;"	d
+OBJ_ENCODING_SKIPLIST	src/server.h	209;"	d
+OBJ_ENCODING_ZIPLIST	src/server.h	207;"	d
+OBJ_ENCODING_ZIPMAP	src/server.h	205;"	d
+OBJ_HASH	src/server.h	197;"	d
+OBJ_HASH_KEY	src/server.h	1062;"	d
+OBJ_HASH_MAX_ZIPLIST_ENTRIES	src/server.h	368;"	d
+OBJ_HASH_MAX_ZIPLIST_VALUE	src/server.h	369;"	d
+OBJ_HASH_VALUE	src/server.h	1063;"	d
+OBJ_LIST	src/server.h	194;"	d
+OBJ_LIST_COMPRESS_DEPTH	src/server.h	376;"	d
+OBJ_LIST_MAX_ZIPLIST_SIZE	src/server.h	375;"	d
 OBJ_RING_BUF_COUNT	deps/jemalloc/test/unit/prof_reset.c	147;"	d	file:
 OBJ_RING_BUF_COUNT	deps/jemalloc/test/unit/prof_reset.c	234;"	d	file:
-OBJ_SET	src/server.h	194;"	d
+OBJ_SET	src/server.h	195;"	d
 OBJ_SET_EX	src/t_string.c	64;"	d	file:
-OBJ_SET_MAX_INTSET_ENTRIES	src/server.h	369;"	d
+OBJ_SET_MAX_INTSET_ENTRIES	src/server.h	370;"	d
 OBJ_SET_NO_FLAGS	src/t_string.c	61;"	d	file:
 OBJ_SET_NX	src/t_string.c	62;"	d	file:
 OBJ_SET_PX	src/t_string.c	65;"	d	file:
 OBJ_SET_XX	src/t_string.c	63;"	d	file:
 OBJ_SHARED_BULKHDR_LEN	src/server.h	90;"	d
 OBJ_SHARED_INTEGERS	src/server.h	89;"	d
-OBJ_STRING	src/server.h	192;"	d
-OBJ_ZSET	src/server.h	195;"	d
-OBJ_ZSET_MAX_ZIPLIST_ENTRIES	src/server.h	370;"	d
-OBJ_ZSET_MAX_ZIPLIST_VALUE	src/server.h	371;"	d
+OBJ_STRING	src/server.h	193;"	d
+OBJ_ZSET	src/server.h	196;"	d
+OBJ_ZSET_MAX_ZIPLIST_ENTRIES	src/server.h	371;"	d
+OBJ_ZSET_MAX_ZIPLIST_VALUE	src/server.h	372;"	d
 OK	src/quicklist.c	1429;"	d	file:
 ONLY64	deps/jemalloc/test/src/SFMT.c	65;"	d	file:
 OPR_ADD	deps/lua/src/lcode.h	/^  OPR_ADD, OPR_SUB, OPR_MUL, OPR_DIV, OPR_MOD, OPR_POW,$/;"	e	enum:BinOpr
@@ -2200,16 +2201,16 @@ PROF_TDATA_STATE_MAX	deps/jemalloc/include/jemalloc/internal/prof.h	53;"	d
 PROF_TDATA_STATE_PURGATORY	deps/jemalloc/include/jemalloc/internal/prof.h	52;"	d
 PROF_TDATA_STATE_REINCARNATED	deps/jemalloc/include/jemalloc/internal/prof.h	51;"	d
 PROGNAME	deps/lua/src/luac.c	26;"	d	file:
-PROPAGATE_AOF	src/server.h	418;"	d
-PROPAGATE_NONE	src/server.h	417;"	d
-PROPAGATE_REPL	src/server.h	419;"	d
-PROTO_INLINE_MAX_SIZE	src/server.h	160;"	d
-PROTO_IOBUF_LEN	src/server.h	158;"	d
-PROTO_MAX_QUERYBUF_LEN	src/server.h	157;"	d
-PROTO_MBULK_BIG_ARG	src/server.h	161;"	d
-PROTO_REPLY_CHUNK_BYTES	src/server.h	159;"	d
-PROTO_REQ_INLINE	src/server.h	283;"	d
-PROTO_REQ_MULTIBULK	src/server.h	284;"	d
+PROPAGATE_AOF	src/server.h	419;"	d
+PROPAGATE_NONE	src/server.h	418;"	d
+PROPAGATE_REPL	src/server.h	420;"	d
+PROTO_INLINE_MAX_SIZE	src/server.h	161;"	d
+PROTO_IOBUF_LEN	src/server.h	159;"	d
+PROTO_MAX_QUERYBUF_LEN	src/server.h	158;"	d
+PROTO_MBULK_BIG_ARG	src/server.h	162;"	d
+PROTO_REPLY_CHUNK_BYTES	src/server.h	160;"	d
+PROTO_REQ_INLINE	src/server.h	284;"	d
+PROTO_REQ_MULTIBULK	src/server.h	285;"	d
 PROTO_SHARED_SELECT_CMDS	src/server.h	88;"	d
 PSYNC_CONTINUE	src/replication.c	1277;"	d	file:
 PSYNC_FULLRESYNC	src/replication.c	1278;"	d	file:
@@ -2280,11 +2281,11 @@ RB_COMPACT	deps/jemalloc/include/jemalloc/internal/jemalloc_internal.h	163;"	d
 RB_H_	deps/jemalloc/include/jemalloc/internal/rb.h	23;"	d
 RC	deps/lua/src/lvm.c	350;"	d	file:
 RDB_14BITLEN	src/rdb.h	57;"	d
-RDB_14BITLEN	src/server.h	226;"	d
+RDB_14BITLEN	src/server.h	227;"	d
 RDB_32BITLEN	src/rdb.h	58;"	d
-RDB_32BITLEN	src/server.h	227;"	d
+RDB_32BITLEN	src/server.h	228;"	d
 RDB_6BITLEN	src/rdb.h	56;"	d
-RDB_6BITLEN	src/server.h	225;"	d
+RDB_6BITLEN	src/server.h	226;"	d
 RDB_CHECK_DOING_CHECK_SUM	src/redis-check-rdb.c	59;"	d	file:
 RDB_CHECK_DOING_READ_AUX	src/redis-check-rdb.c	61;"	d	file:
 RDB_CHECK_DOING_READ_EXPIRE	src/redis-check-rdb.c	56;"	d	file:
@@ -2293,22 +2294,22 @@ RDB_CHECK_DOING_READ_LEN	src/redis-check-rdb.c	60;"	d	file:
 RDB_CHECK_DOING_READ_OBJECT_VALUE	src/redis-check-rdb.c	58;"	d	file:
 RDB_CHECK_DOING_READ_TYPE	src/redis-check-rdb.c	55;"	d	file:
 RDB_CHECK_DOING_START	src/redis-check-rdb.c	54;"	d	file:
-RDB_CHILD_TYPE_DISK	src/server.h	423;"	d
-RDB_CHILD_TYPE_NONE	src/server.h	422;"	d
-RDB_CHILD_TYPE_SOCKET	src/server.h	424;"	d
+RDB_CHILD_TYPE_DISK	src/server.h	424;"	d
+RDB_CHILD_TYPE_NONE	src/server.h	423;"	d
+RDB_CHILD_TYPE_SOCKET	src/server.h	425;"	d
 RDB_ENCVAL	src/rdb.h	59;"	d
-RDB_ENCVAL	src/server.h	228;"	d
+RDB_ENCVAL	src/server.h	229;"	d
 RDB_ENC_INT16	src/rdb.h	66;"	d
-RDB_ENC_INT16	src/server.h	235;"	d
+RDB_ENC_INT16	src/server.h	236;"	d
 RDB_ENC_INT32	src/rdb.h	67;"	d
-RDB_ENC_INT32	src/server.h	236;"	d
+RDB_ENC_INT32	src/server.h	237;"	d
 RDB_ENC_INT8	src/rdb.h	65;"	d
-RDB_ENC_INT8	src/server.h	234;"	d
+RDB_ENC_INT8	src/server.h	235;"	d
 RDB_ENC_LZF	src/rdb.h	68;"	d
-RDB_ENC_LZF	src/server.h	237;"	d
+RDB_ENC_LZF	src/server.h	238;"	d
 RDB_EOF_MARK_SIZE	src/server.h	103;"	d
 RDB_LENERR	src/rdb.h	60;"	d
-RDB_LENERR	src/server.h	229;"	d
+RDB_LENERR	src/server.h	230;"	d
 RDB_LOAD_ENC	src/rdb.c	45;"	d	file:
 RDB_LOAD_NONE	src/rdb.c	44;"	d	file:
 RDB_LOAD_PLAIN	src/rdb.c	46;"	d	file:
@@ -2356,7 +2357,7 @@ REDIS_CLI_RCFILE_DEFAULT	src/redis-cli.c	67;"	d	file:
 REDIS_CLI_RCFILE_ENV	src/redis-cli.c	66;"	d	file:
 REDIS_COMPARE_BINARY	src/object.c	466;"	d	file:
 REDIS_COMPARE_COLL	src/object.c	467;"	d	file:
-REDIS_CONFIG_REWRITE_SIGNATURE	src/config.c	1252;"	d	file:
+REDIS_CONFIG_REWRITE_SIGNATURE	src/config.c	1259;"	d	file:
 REDIS_CONNECTED	deps/hiredis/hiredis.h	61;"	d
 REDIS_DISCONNECTING	deps/hiredis/hiredis.h	67;"	d
 REDIS_ERR	deps/hiredis/hiredis.h	42;"	d
@@ -2397,29 +2398,29 @@ REDIS_THREAD_STACK_SIZE	src/bio.c	89;"	d	file:
 REDIS_VERSION	src/version.h	1;"	d
 REDZONE_MINSIZE	deps/jemalloc/include/jemalloc/internal/arena.h	14;"	d
 REPL_MAX_WRITTEN_BEFORE_FSYNC	src/replication.c	983;"	d	file:
-REPL_STATE_CONNECT	src/server.h	299;"	d
-REPL_STATE_CONNECTED	src/server.h	315;"	d
-REPL_STATE_CONNECTING	src/server.h	300;"	d
-REPL_STATE_NONE	src/server.h	298;"	d
-REPL_STATE_RECEIVE_AUTH	src/server.h	304;"	d
-REPL_STATE_RECEIVE_CAPA	src/server.h	310;"	d
-REPL_STATE_RECEIVE_IP	src/server.h	308;"	d
-REPL_STATE_RECEIVE_PONG	src/server.h	302;"	d
-REPL_STATE_RECEIVE_PORT	src/server.h	306;"	d
-REPL_STATE_RECEIVE_PSYNC	src/server.h	312;"	d
-REPL_STATE_SEND_AUTH	src/server.h	303;"	d
-REPL_STATE_SEND_CAPA	src/server.h	309;"	d
-REPL_STATE_SEND_IP	src/server.h	307;"	d
-REPL_STATE_SEND_PORT	src/server.h	305;"	d
-REPL_STATE_SEND_PSYNC	src/server.h	311;"	d
-REPL_STATE_TRANSFER	src/server.h	314;"	d
+REPL_STATE_CONNECT	src/server.h	300;"	d
+REPL_STATE_CONNECTED	src/server.h	316;"	d
+REPL_STATE_CONNECTING	src/server.h	301;"	d
+REPL_STATE_NONE	src/server.h	299;"	d
+REPL_STATE_RECEIVE_AUTH	src/server.h	305;"	d
+REPL_STATE_RECEIVE_CAPA	src/server.h	311;"	d
+REPL_STATE_RECEIVE_IP	src/server.h	309;"	d
+REPL_STATE_RECEIVE_PONG	src/server.h	303;"	d
+REPL_STATE_RECEIVE_PORT	src/server.h	307;"	d
+REPL_STATE_RECEIVE_PSYNC	src/server.h	313;"	d
+REPL_STATE_SEND_AUTH	src/server.h	304;"	d
+REPL_STATE_SEND_CAPA	src/server.h	310;"	d
+REPL_STATE_SEND_IP	src/server.h	308;"	d
+REPL_STATE_SEND_PORT	src/server.h	306;"	d
+REPL_STATE_SEND_PSYNC	src/server.h	312;"	d
+REPL_STATE_TRANSFER	src/server.h	315;"	d
 RESERVED	deps/lua/src/llex.h	/^enum RESERVED {$/;"	g
 RESET_INTERVAL	deps/jemalloc/test/unit/prof_reset.c	148;"	d	file:
 RESET_INTERVAL	deps/jemalloc/test/unit/prof_reset.c	235;"	d	file:
 REST	src/rand.c	64;"	d	file:
-RESTART_SERVER_CONFIG_REWRITE	src/server.h	1343;"	d
-RESTART_SERVER_GRACEFULLY	src/server.h	1342;"	d
-RESTART_SERVER_NONE	src/server.h	1341;"	d
+RESTART_SERVER_CONFIG_REWRITE	src/server.h	1345;"	d
+RESTART_SERVER_GRACEFULLY	src/server.h	1344;"	d
+RESTART_SERVER_NONE	src/server.h	1343;"	d
 REV	deps/jemalloc/Makefile	/^REV := 2$/;"	m
 REV_FINAL_CFLAGS	src/Makefile	/^	echo PREV_FINAL_CFLAGS=$(FINAL_CFLAGS) >> .make-settings$/;"	m
 REV_FINAL_LDFLAGS	src/Makefile	/^	echo PREV_FINAL_LDFLAGS=$(FINAL_LDFLAGS) >> .make-settings$/;"	m
@@ -2571,11 +2572,11 @@ SETLOW	src/rand.c	62;"	d	file:
 SET_ERRNO	src/lzf_d.c	40;"	d	file:
 SET_ERRNO	src/lzf_d.c	43;"	d	file:
 SET_OPCODE	deps/lua/src/lopcodes.h	81;"	d
-SET_OP_DIFF	src/server.h	382;"	d
+SET_OP_DIFF	src/server.h	383;"	d
 SET_OP_DIFF	src/t_set.c	936;"	d	file:
-SET_OP_INTER	src/server.h	383;"	d
+SET_OP_INTER	src/server.h	384;"	d
 SET_OP_INTER	src/t_set.c	937;"	d	file:
-SET_OP_UNION	src/server.h	381;"	d
+SET_OP_UNION	src/server.h	382;"	d
 SET_OP_UNION	src/t_set.c	935;"	d	file:
 SFIXEDBIT	deps/lua/src/lgc.h	61;"	d
 SFMT_ALTI_H	deps/jemalloc/test/include/test/SFMT-alti.h	53;"	d
@@ -2601,9 +2602,9 @@ SHA1Update	src/sha1.c	/^void SHA1Update(SHA1_CTX* context, const unsigned char* 
 SHA1_CTX	src/sha1.h	/^} SHA1_CTX;$/;"	t	typeref:struct:__anon80
 SHA1_H	src/sha1.h	2;"	d
 SHELL	deps/jemalloc/Makefile	/^SHELL := \/bin\/sh$/;"	m
-SHUTDOWN_NOFLAGS	src/server.h	402;"	d
-SHUTDOWN_NOSAVE	src/server.h	405;"	d
-SHUTDOWN_SAVE	src/server.h	403;"	d
+SHUTDOWN_NOFLAGS	src/server.h	403;"	d
+SHUTDOWN_NOSAVE	src/server.h	406;"	d
+SHUTDOWN_SAVE	src/server.h	404;"	d
 SI	tests/instances.tcl	/^proc SI {n field} {$/;"	p
 SIG_ATOMIC_MAX	deps/jemalloc/include/msvc_compat/C99/stdint.h	200;"	d
 SIG_ATOMIC_MIN	deps/jemalloc/include/msvc_compat/C99/stdint.h	199;"	d
@@ -2647,12 +2648,12 @@ SL2	deps/jemalloc/test/include/test/SFMT-params4253.h	41;"	d
 SL2	deps/jemalloc/test/include/test/SFMT-params44497.h	41;"	d
 SL2	deps/jemalloc/test/include/test/SFMT-params607.h	41;"	d
 SL2	deps/jemalloc/test/include/test/SFMT-params86243.h	41;"	d
-SLAVE_CAPA_EOF	src/server.h	328;"	d
-SLAVE_CAPA_NONE	src/server.h	327;"	d
-SLAVE_STATE_ONLINE	src/server.h	324;"	d
-SLAVE_STATE_SEND_BULK	src/server.h	323;"	d
-SLAVE_STATE_WAIT_BGSAVE_END	src/server.h	322;"	d
-SLAVE_STATE_WAIT_BGSAVE_START	src/server.h	321;"	d
+SLAVE_CAPA_EOF	src/server.h	329;"	d
+SLAVE_CAPA_NONE	src/server.h	328;"	d
+SLAVE_STATE_ONLINE	src/server.h	325;"	d
+SLAVE_STATE_SEND_BULK	src/server.h	324;"	d
+SLAVE_STATE_WAIT_BGSAVE_END	src/server.h	323;"	d
+SLAVE_STATE_WAIT_BGSAVE_START	src/server.h	322;"	d
 SLOWLOG_ENTRY_MAX_ARGC	src/slowlog.h	30;"	d
 SLOWLOG_ENTRY_MAX_STRING	src/slowlog.h	31;"	d
 SMALL_MAXCLASS	deps/jemalloc/include/jemalloc/internal/size_classes.h	182;"	d
@@ -2662,7 +2663,7 @@ SOREV	deps/jemalloc/Makefile	/^SOREV = so.2$/;"	m
 SORT_ASC	src/geo.c	454;"	d	file:
 SORT_DESC	src/geo.c	455;"	d	file:
 SORT_NONE	src/geo.c	453;"	d	file:
-SORT_OP_GET	src/server.h	338;"	d
+SORT_OP_GET	src/server.h	339;"	d
 SPARKLINE_FILL	src/sparkline.h	47;"	d
 SPARKLINE_LOG_SCALE	src/sparkline.h	48;"	d
 SPARKLINE_NO_FLAGS	src/sparkline.h	46;"	d
@@ -2713,11 +2714,11 @@ SRI_S_DOWN	src/sentinel.c	57;"	d	file:
 SS	deps/lua/src/print.c	158;"	d	file:
 STANDALONE	src/lzfP.h	40;"	d
 STATIC_LIBS	deps/jemalloc/Makefile	/^STATIC_LIBS := $(objroot)lib\/$(LIBJEMALLOC).$(A)$/;"	m
-STATS_METRIC_COMMAND	src/server.h	151;"	d
-STATS_METRIC_COUNT	src/server.h	154;"	d
-STATS_METRIC_NET_INPUT	src/server.h	152;"	d
-STATS_METRIC_NET_OUTPUT	src/server.h	153;"	d
-STATS_METRIC_SAMPLES	src/server.h	150;"	d
+STATS_METRIC_COMMAND	src/server.h	152;"	d
+STATS_METRIC_COUNT	src/server.h	155;"	d
+STATS_METRIC_NET_INPUT	src/server.h	153;"	d
+STATS_METRIC_NET_OUTPUT	src/server.h	154;"	d
+STATS_METRIC_SAMPLES	src/server.h	151;"	d
 STD	deps/geohash-int/Makefile	/^STD=$/;"	m
 STD	deps/linenoise/Makefile	/^STD=$/;"	m
 STD	src/Makefile	/^STD=-std=c99 -pedantic -DREDIS_STATIC=''$/;"	m
@@ -2733,10 +2734,10 @@ STRICT_ALIGN	src/lzfP.h	82;"	d
 STRINGIFY	deps/jemalloc/test/unit/quarantine.c	5;"	d	file:
 STRINGIFY_HELPER	deps/jemalloc/test/unit/quarantine.c	4;"	d	file:
 STRUCT_INT	deps/lua/src/lua_struct.c	49;"	d	file:
-SUPERVISED_AUTODETECT	src/server.h	350;"	d
-SUPERVISED_NONE	src/server.h	349;"	d
-SUPERVISED_SYSTEMD	src/server.h	351;"	d
-SUPERVISED_UPSTART	src/server.h	352;"	d
+SUPERVISED_AUTODETECT	src/server.h	351;"	d
+SUPERVISED_NONE	src/server.h	350;"	d
+SUPERVISED_SYSTEMD	src/server.h	352;"	d
+SUPERVISED_UPSTART	src/server.h	353;"	d
 SWAPINIT	src/pqsort.c	65;"	d	file:
 SYNCIO__RESOLUTION	src/syncio.c	43;"	d	file:
 SYNC_CMD_FULL	src/replication.c	1180;"	d	file:
@@ -3069,8 +3070,8 @@ ULONG_ZEROONE	src/memtest.c	53;"	d	file:
 ULONG_ZEROONE	src/memtest.c	56;"	d	file:
 ULTRA_FAST	src/lzfP.h	75;"	d
 UNARY_PRIORITY	deps/lua/src/lparser.c	821;"	d	file:
-UNIT_MILLISECONDS	src/server.h	399;"	d
-UNIT_SECONDS	src/server.h	398;"	d
+UNIT_MILLISECONDS	src/server.h	400;"	d
+UNIT_SECONDS	src/server.h	399;"	d
 UNUSED	deps/hiredis/sds.c	1105;"	d	file:
 UNUSED	deps/jemalloc/include/jemalloc/internal/jemalloc_internal_macros.h	36;"	d
 UNUSED	deps/jemalloc/include/jemalloc/internal/jemalloc_internal_macros.h	38;"	d
@@ -3082,7 +3083,7 @@ UNUSED	src/quicklist.c	1449;"	d	file:
 UNUSED	src/redis-benchmark.c	49;"	d	file:
 UNUSED	src/redis-cli.c	57;"	d	file:
 UNUSED	src/sds.c	1105;"	d	file:
-UNUSED	src/server.h	355;"	d
+UNUSED	src/server.h	356;"	d
 UNUSED	src/sha1.c	203;"	d	file:
 UNUSED	src/util.c	737;"	d	file:
 UNUSED	src/zipmap.c	407;"	d	file:
@@ -3199,8 +3200,8 @@ ZMALLOC_LIB	src/zmalloc.h	65;"	d
 ZRANGE_LEX	src/t_zset.c	1474;"	d	file:
 ZRANGE_RANK	src/t_zset.c	1472;"	d	file:
 ZRANGE_SCORE	src/t_zset.c	1473;"	d	file:
-ZSKIPLIST_MAXLEVEL	src/server.h	357;"	d
-ZSKIPLIST_P	src/server.h	358;"	d
+ZSKIPLIST_MAXLEVEL	src/server.h	358;"	d
+ZSKIPLIST_P	src/server.h	359;"	d
 ZU	deps/jemalloc/include/jemalloc/internal/jemalloc_internal_macros.h	41;"	d
 Zio	deps/lua/src/lzio.h	/^struct Zio {$/;"	s
 _ALL_SOURCE	deps/hiredis/fmacros.h	9;"	d
@@ -5179,10 +5180,10 @@ config_cache_oblivious	deps/jemalloc/include/jemalloc/internal/jemalloc_internal
 config_debug	deps/jemalloc/include/jemalloc/internal/jemalloc_internal.h	/^static const bool config_debug =$/;"	v
 config_epoch	src/sentinel.c	/^    uint64_t config_epoch;  \/* Configuration epoch. *\/$/;"	m	struct:sentinelRedisInstance	file:
 config_fill	deps/jemalloc/include/jemalloc/internal/jemalloc_internal.h	/^static const bool config_fill =$/;"	v
-config_get_bool_field	src/config.c	1028;"	d	file:
-config_get_enum_field	src/config.c	1045;"	d	file:
-config_get_numerical_field	src/config.c	1036;"	d	file:
-config_get_string_field	src/config.c	1020;"	d	file:
+config_get_bool_field	src/config.c	1035;"	d	file:
+config_get_enum_field	src/config.c	1052;"	d	file:
+config_get_numerical_field	src/config.c	1043;"	d	file:
+config_get_string_field	src/config.c	1027;"	d	file:
 config_ivsalloc	deps/jemalloc/include/jemalloc/internal/jemalloc_internal.h	/^static const bool config_ivsalloc =$/;"	v
 config_lazy_lock	deps/jemalloc/include/jemalloc/internal/jemalloc_internal.h	/^static const bool config_lazy_lock =$/;"	v
 config_munmap	deps/jemalloc/include/jemalloc/internal/jemalloc_internal.h	/^static const bool config_munmap =$/;"	v
@@ -5190,12 +5191,12 @@ config_node	deps/jemalloc/src/ctl.c	/^static const ctl_named_node_t	config_node[
 config_prof	deps/jemalloc/include/jemalloc/internal/jemalloc_internal.h	/^static const bool config_prof =$/;"	v
 config_prof_libgcc	deps/jemalloc/include/jemalloc/internal/jemalloc_internal.h	/^static const bool config_prof_libgcc =$/;"	v
 config_prof_libunwind	deps/jemalloc/include/jemalloc/internal/jemalloc_internal.h	/^static const bool config_prof_libunwind =$/;"	v
-config_set_bool_field	src/config.c	688;"	d	file:
-config_set_else	src/config.c	716;"	d	file:
-config_set_enum_field	src/config.c	707;"	d	file:
-config_set_memory_field	src/config.c	701;"	d	file:
-config_set_numerical_field	src/config.c	694;"	d	file:
-config_set_special_field	src/config.c	713;"	d	file:
+config_set_bool_field	src/config.c	695;"	d	file:
+config_set_else	src/config.c	723;"	d	file:
+config_set_enum_field	src/config.c	714;"	d	file:
+config_set_memory_field	src/config.c	708;"	d	file:
+config_set_numerical_field	src/config.c	701;"	d	file:
+config_set_special_field	src/config.c	720;"	d	file:
 config_stats	deps/jemalloc/include/jemalloc/internal/jemalloc_internal.h	/^static const bool config_stats =$/;"	v
 config_stats	deps/jemalloc/test/integration/allocated.c	/^static const bool config_stats =$/;"	v	file:
 config_tcache	deps/jemalloc/include/jemalloc/internal/jemalloc_internal.h	/^static const bool config_tcache =$/;"	v
@@ -6076,6 +6077,7 @@ fnames	deps/lua/src/liolib.c	/^static const char *const fnames[] = {"input", "ou
 foo	deps/lua/doc/manual.html	/^     function foo (a)$/;"	f
 forbody	deps/lua/src/lparser.c	/^static void forbody (LexState *ls, int base, int line, int nvars, int isnum) {$/;"	f	file:
 forceCommandPropagation	src/server.c	/^void forceCommandPropagation(client *c, int flags) {$/;"	f
+force_auth	src/server.h	/^    int force_auth; \/\/wangjunling: force auth$/;"	m	struct:redisServer
 force_cancel_loop	src/redis-cli.c	/^static volatile sig_atomic_t force_cancel_loop = 0;$/;"	v	file:
 force_kill_all_servers	tests/test_helper.tcl	/^proc force_kill_all_servers {} {$/;"	p
 foreach	deps/lua/src/ltablib.c	/^static int foreach (lua_State *L) {$/;"	f	file:
@@ -6605,7 +6607,7 @@ huge_salloc	deps/jemalloc/src/huge.c	/^huge_salloc(const void *ptr)$/;"	f
 hvalsCommand	src/t_hash.c	/^void hvalsCommand(client *c) {$/;"	f
 hvalue	deps/lua/src/lobject.h	99;"	d
 hz	src/server.h	/^    int hz;                     \/* serverCron() calls frequency in hertz *\/$/;"	m	struct:redisServer
-hz	src/server.h	701;"	d
+hz	src/server.h	702;"	d
 i64	src/bitops.c	/^    int64_t i64;        \/* Increment amount (INCRBY) or SET value *\/$/;"	m	struct:bitfieldOp	file:
 iABC	deps/lua/src/lopcodes.h	/^enum OpMode {iABC, iABx, iAsBx};  \/* basic instruction format *\/$/;"	e	enum:OpMode
 iABx	deps/lua/src/lopcodes.h	/^enum OpMode {iABC, iABx, iAsBx};  \/* basic instruction format *\/$/;"	e	enum:OpMode
@@ -6731,7 +6733,7 @@ initSentinel	src/sentinel.c	/^void initSentinel(void) {$/;"	f
 initSentinelConfig	src/sentinel.c	/^void initSentinelConfig(void) {$/;"	f
 initServer	src/server.c	/^void initServer(void) {$/;"	f
 initServerConfig	src/server.c	/^void initServerConfig(void) {$/;"	f
-initStaticStringObject	src/server.h	481;"	d
+initStaticStringObject	src/server.h	482;"	d
 init_by_array	deps/jemalloc/test/src/SFMT.c	/^sfmt_t *init_by_array(uint32_t *init_key, int key_length) {$/;"	f
 init_by_array_32_expected	deps/jemalloc/test/unit/SFMT.c	/^static const uint32_t init_by_array_32_expected[] = {$/;"	v	file:
 init_by_array_64_expected	deps/jemalloc/test/unit/SFMT.c	/^static const uint64_t init_by_array_64_expected[] = {$/;"	v	file:
@@ -10217,8 +10219,8 @@ redisCopy	utils/redis-copy.rb	/^def redisCopy(opts={})$/;"	f
 redisCreateSocket	deps/hiredis/net.c	/^static int redisCreateSocket(redisContext *c, int type) {$/;"	f	file:
 redisDb	src/server.h	/^typedef struct redisDb {$/;"	s
 redisDb	src/server.h	/^} redisDb;$/;"	t	typeref:struct:redisDb
-redisDebug	src/server.h	1675;"	d
-redisDebugMark	src/server.h	1677;"	d
+redisDebug	src/server.h	1677;"	d
+redisDebugMark	src/server.h	1679;"	d
 redisDisconnectCallback	deps/hiredis/async.h	/^typedef void (redisDisconnectCallback)(const struct redisAsyncContext*, int status);$/;"	t
 redisEnableKeepAlive	deps/hiredis/hiredis.c	/^int redisEnableKeepAlive(redisContext *c) {$/;"	f
 redisFormatCommand	deps/hiredis/hiredis.c	/^int redisFormatCommand(char **target, const char *format, ...) {$/;"	f
@@ -10618,7 +10620,7 @@ run_quantize_first	deps/jemalloc/src/arena.c	/^run_quantize_first(size_t size)$/
 run_quantize_next	deps/jemalloc/src/arena.c	/^run_quantize_next(size_t size)$/;"	f	file:
 run_size	deps/jemalloc/include/jemalloc/internal/arena.h	/^	size_t		run_size;$/;"	m	struct:arena_bin_info_s
 run_tests	tests/instances.tcl	/^proc run_tests {} {$/;"	p
-run_with_period	src/server.h	446;"	d
+run_with_period	src/server.h	447;"	d
 runargs	deps/lua/src/lua.c	/^static int runargs (lua_State *L, char **argv, int n) {$/;"	f	file:
 runcur	deps/jemalloc/include/jemalloc/internal/arena.h	/^	arena_run_t	*runcur;$/;"	m	struct:arena_bin_s
 runid	src/sentinel.c	/^    char *runid;    \/* Run ID of this instance, or unique ID if is a Sentinel.*\/$/;"	m	struct:sentinelRedisInstance	file:
@@ -10707,7 +10709,7 @@ sdsAllocPtr	src/sds.c	/^void *sdsAllocPtr(sds s) {$/;"	f
 sdsAllocSize	deps/hiredis/sds.c	/^size_t sdsAllocSize(sds s) {$/;"	f
 sdsAllocSize	src/sds.c	/^size_t sdsAllocSize(sds s) {$/;"	f
 sdsCatColorizedLdbReply	src/redis-cli.c	/^sds sdsCatColorizedLdbReply(sds o, char *s, size_t len) {$/;"	f
-sdsEncodedObject	src/server.h	1225;"	d
+sdsEncodedObject	src/server.h	1227;"	d
 sdsHdrSize	deps/hiredis/sds.c	/^static inline int sdsHdrSize(char type) {$/;"	f	file:
 sdsHdrSize	src/sds.c	/^static inline int sdsHdrSize(char type) {$/;"	f	file:
 sdsIncrLen	deps/hiredis/sds.c	/^void sdsIncrLen(sds s, int incr) {$/;"	f
@@ -10930,15 +10932,15 @@ sep_line	deps/jemalloc/include/jemalloc/internal/size_classes.sh	/^sep_line() {$
 sequence	src/sparkline.h	/^struct sequence {$/;"	s
 serveClientBlockedOnList	src/t_list.c	/^int serveClientBlockedOnList(client *receiver, robj *key, robj *dstkey, redisDb *db, robj *value, int where)$/;"	f
 server	src/server.c	/^struct redisServer server; \/* server global state *\/$/;"	v	typeref:struct:redisServer
-serverAssert	src/server.h	450;"	d
-serverAssertWithInfo	src/server.h	449;"	d
+serverAssert	src/server.h	451;"	d
+serverAssertWithInfo	src/server.h	450;"	d
 serverCron	src/server.c	/^int serverCron(struct aeEventLoop *eventLoop, long long id, void *clientData) {$/;"	f
 serverLog	src/server.c	/^void serverLog(int level, const char *fmt, ...) {$/;"	f
 serverLogFromHandler	src/server.c	/^void serverLogFromHandler(int level, const char *msg) {$/;"	f
 serverLogHexDump	src/debug.c	/^void serverLogHexDump(int level, char *descr, void *value, size_t len) {$/;"	f
 serverLogObjectDebugInfo	src/debug.c	/^void serverLogObjectDebugInfo(robj *o) {$/;"	f
 serverLogRaw	src/server.c	/^void serverLogRaw(int level, const char *msg) {$/;"	f
-serverPanic	src/server.h	451;"	d
+serverPanic	src/server.h	452;"	d
 server_is_up	tests/support/server.tcl	/^proc server_is_up {host port retrynum} {$/;"	p
 set	src/t_zset.c	/^        } set;$/;"	m	union:__anon81::__anon82	typeref:union:__anon81::__anon82::_iterset	file:
 set2	deps/lua/src/ltablib.c	/^static void set2 (lua_State *L, int i, int j) {$/;"	f	file:
