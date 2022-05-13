@@ -2390,7 +2390,7 @@ int processCommand(client *c) {
         return C_OK;
     }
 
-    //wangjunling hacked: no force authenticated
+    //wangjunling: no force authenticated
     /* Check if the user is authenticated */
     //if (server.requirepass && !c->authenticated && c->cmd->proc != authCommand)
     //{
