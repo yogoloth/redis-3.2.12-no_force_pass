@@ -5,7 +5,7 @@ feature
 
 redis.conf 中增加配置force-auth,默认yes
 
-1. force-auth=no 不强制密码验证
+1. force-auth no 不强制密码验证
 2. client list命令可以看见已认证和未认证的客户端
 sample:
 127.0.0.1:6379> client list
