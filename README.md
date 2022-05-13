@@ -1,6 +1,6 @@
 This README is just a fast *quick start* document. You can find more detailed documentation at http://redis.io.
 
-feather
+feature
 --------------
 1. 不强制密码验证
 2. client list命令可以看见已认证和未认证的客户端
