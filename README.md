@@ -1,5 +1,15 @@
 This README is just a fast *quick start* document. You can find more detailed documentation at http://redis.io.
 
+Hack
+--------------
+1. 不强制密码验证
+2. client list命令可以看见已认证和未认证的客户端
+sample:
+127.0.0.1:6379> client list
+id=2 addr=127.0.0.1:51390 fd=5 name= age=41 idle=3 flags=N db=0 sub=0 psub=0 multi=-1 qbuf=0 qbuf-free=0 obl=0 oll=0 omem=0 events=r cmd=auth authenticated=1
+id=3 addr=127.0.0.1:51417 fd=6 name= age=28 idle=0 flags=N db=0 sub=0 psub=0 multi=-1 qbuf=0 qbuf-free=32768 obl=0 oll=0 omem=0 events=r cmd=client authenticated=0
+
+
 What is Redis?
 --------------
 
