@@ -7,13 +7,13 @@
 /config.stamp
 /config.log
 /config.status
-/configure
+#/configure
 
 /doc/html.xsl
 /doc/manpages.xsl
 /doc/jemalloc.xml
-/doc/jemalloc.html
-/doc/jemalloc.3
+#/doc/jemalloc.html
+#/doc/jemalloc.3
 
 /jemalloc.pc
 
@@ -72,4 +72,4 @@ test/include/test/jemalloc_test_defs.h
 /test/unit/*.gcno
 /test/unit/*.out
 
-/VERSION
+#/VERSION
